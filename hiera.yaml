@@ -3,6 +3,8 @@ version: 5
 hierarchy:
   - name: Common
     path: common.yaml
+  - name: nodes
+    path: nodes/%{trusted.certname}.yaml
 defaults:
   data_hash: yaml_data
   datadir: hieradata
